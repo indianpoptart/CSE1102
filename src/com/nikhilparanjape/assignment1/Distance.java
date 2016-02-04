@@ -1,4 +1,4 @@
-package com.nikhilparanjape.assignment1
+package com.nikhilparanjape.assignment1;
 /**
  * A simple distance of two points program
  * 
@@ -9,7 +9,7 @@ package com.nikhilparanjape.assignment1
  */
 
 import java.util.Scanner;
-import java.lang.Math
+import java.lang.Math;
 
 public class Distance
 {

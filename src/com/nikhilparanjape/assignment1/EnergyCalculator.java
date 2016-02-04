@@ -1,4 +1,4 @@
-package com.nikhilparanjape.assignment1
+package com.nikhilparanjape.assignment1;
 /**
  * A simple energy calculator
  * 
@@ -11,8 +11,9 @@ package com.nikhilparanjape.assignment1
 import java.util.Scanner;
 
 public class EnergyCalculator
-static double spHeat = 4184; //Sets constant for specific heat
 {
+  static double spHeat = 4184; //Sets constant for specific heat
+  
   public static void main(String[] args)
   {
     Scanner scan = new Scanner(System.in);

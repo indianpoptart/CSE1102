@@ -1,4 +1,4 @@
-package com.nikhilparanjape.assignment1
+package com.nikhilparanjape.assignment1;
 /**
  * A simple pounds to kilograms converter
  * 
