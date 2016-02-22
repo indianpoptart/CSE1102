@@ -24,10 +24,9 @@ public class Distance
 	double x2 = scan.nextDouble();
 	double y2 = scan.nextDouble();
 	
-	double a = Math.pow((x2 - x1),2);
-	double b = Math.pow((y2 - y1),2);
+	double sum = Math.pow((x2-x1),2) + Math.pow((y2-y1), 2);
 	
-	double dist = Math.pow((a+b),0.5);
+	double dist = Math.sqrt(sum);
 	
 	System.out.println("The distance between the two points is " + dist);
   }
