@@ -31,5 +31,15 @@ public class EnergyCalculator
 	
 	System.out.println("The engery needed is " + energy + " joules");
 	
+	String t=null;
+	
+	
+	try{
+		System.out.println(t);
+		System.out.println(t.length());
+	} catch(NullPointerException e){
+		System.out.println("Why?");
+	}
+	
   }
 }
